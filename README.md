@@ -1,2 +1,2 @@
-# hyperskill
+# Hyperskill
 Hyperskill Projects from Jetbrains Academy.
