@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-21T17:08:27" hostname="Brandons-MacBook-Air.local" time="0.059">
+<testsuite name="Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-21T17:28:37" hostname="Brandons-MacBook-Air.local" time="0.067">
   <properties/>
-  <testcase name="start" classname="Tests" time="0.059"/>
+  <testcase name="start" classname="Tests" time="0.067"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 Hello! My name is Aid.
@@ -28,7 +28,20 @@ Now I will prove to you that I can count to any number you want.
 8!
 9!
 10!
-Completed, have a nice day!
+Let's test your programming knowledge.
+Why do pickles taste good?
+(1.) Because they are green.
+(2.) Because they are salty.
+(3.) Because they are a vegetable.
+(4.) All of the above.
+Enter your answer: > 1
+Please, try again.
+> 2
+Please, try again.
+> 3
+Please, try again.
+> 4
+Congratulations, have a nice day!
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

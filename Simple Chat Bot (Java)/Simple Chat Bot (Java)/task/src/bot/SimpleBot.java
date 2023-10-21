@@ -10,8 +10,7 @@ public class SimpleBot {
         remindName();
         guessAge();
         count();
-        // ...
-        end();
+        test();
     }
 
     static void greet(String assistantName, String birthYear) {
@@ -46,6 +45,21 @@ public class SimpleBot {
     static void test() {
         System.out.println("Let's test your programming knowledge.");
         // write your code here
+        System.out.println("Why do pickles taste good?");
+        System.out.println("(1.) Because they are green.");
+        System.out.println("(2.) Because they are salty.");
+        System.out.println("(3.) Because they are a vegetable.");
+        System.out.println("(4.) All of the above.");
+        System.out.print("Enter your answer: ");
+        while (true) {
+            int answer = scanner.nextInt();
+            if (answer == 4) {
+                end();
+                break;
+            } else {
+                System.out.println("Please, try again.");
+            }
+        }
     }
 
     static void end() {
