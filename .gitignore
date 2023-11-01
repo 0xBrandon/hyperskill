@@ -1,13 +1,17 @@
 # MacOS files
 .DS_Store
-*/.DS_Store`
 
 # IntelliJ IDEA files
 out/*
+build/*
 .idea/
 *.iml
 *.ipr
 *.iws
+
+# Hyperskill Project Files
+*.yaml
+*.html
 
 # Gradle files
 .gradle/
