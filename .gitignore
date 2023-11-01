@@ -1,7 +1,9 @@
 # MacOS files
 .DS_Store
+*/.DS_Store`
 
 # IntelliJ IDEA files
+out/*
 .idea/
 *.iml
 *.ipr
@@ -12,6 +14,10 @@
 build/
 gradle.properties
 gradle.xml
+gradle/
+gradlew*
+settings.gradle
+build.gradle
 
 # Maven files
 .mvn/
